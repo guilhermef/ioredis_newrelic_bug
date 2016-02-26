@@ -15,5 +15,5 @@ doesn't show any logs from new relic meaning it's adding custom parameters
 to the current transaction.
 
 But on GET /redis or /redis_callback
-it shows a log "msg":"No transaction found for custom parameters.",
+it shows a log `"msg":"No transaction found for custom parameters."`,
 so it lost track of the current transaction.
